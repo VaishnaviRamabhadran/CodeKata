@@ -6,6 +6,6 @@ public static void main(String[] args)
 int n;
 Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
-System.out.print((n%2==0)?"Even":(n%2!=0)?"Odd":"Invalid");
+System.out.print((n>0)?((n%2==0)?"Even":"Odd"):"Invalid");
 }
 }

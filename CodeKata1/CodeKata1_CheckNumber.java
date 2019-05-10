@@ -7,8 +7,5 @@ int n;
 Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
 System.out.print((n==0)?"Zero":(n>0)?"Positive":"Negative");
-
 }
-
-
 }

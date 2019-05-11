@@ -18,7 +18,7 @@ b=sc.nextInt();
   }
   if(i==sum)
   {
-   System.out.print(sum+ " ");
+   System.out.print(sum+ " ");//prints list of armstrong
   }
  }
 }
